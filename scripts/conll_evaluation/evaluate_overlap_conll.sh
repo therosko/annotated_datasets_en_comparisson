@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Run the following block, only if skipping step evaluate_overlap.sh on purpose (all steps executed there). Remove lines 4 and 41.
-: <<'END'
 # create overlap directories
 mkdir /mnt/data/gold_standard/overlap
 mkdir /mnt/data/gold_standard/overlap/litbank
@@ -36,7 +34,7 @@ done
 
 echo -e "\e[30;48;5;45m INFO: Running Flair over overlapping text sections \e[0m"
 python3 /mnt/Git/scripts/flair_tag_raw_texts.py
-END
+
 # create a folder for results
 mkdir /mnt/Git/results/overlap_conll
 
