@@ -13,6 +13,9 @@ mkdir /mnt/data
 echo "Cloning Litbank (raw and annotated dataset collection)"
 cd /mnt/data
 git clone https://github.com/dbamman/litbank.git #last commit https://github.com/dbamman/litbank/commit/a371cd678701fc98371355b328a1a6c4b58508a3 
+cd litbank
+git reset --hard a371cd678701fc98371355b328a1a6c4b58508a3
+cd ..
 # create output folder
 mkdir /mnt/data/gold_standard
 mkdir /mnt/data/gold_standard/litbank
@@ -23,6 +26,9 @@ cd /mnt/data
 # get data from Dekker et al.
 echo -e "\e[30;48;5;45m Cloning Dekker et al. (raw and annotated dataset collection) \e[0m"
 git clone https://github.com/Niels-Dekker/Out-with-the-Old-and-in-with-the-Novel.git
+cd Out-with-the-Old-and-in-with-the-Novel
+git reset --hard ad31ce1fa515dceabb8febbaa7aa235f3de47ebd
+cd ..
 # move relevant (raw and annotated) files and clean up
 mkdir /mnt/data/dekker_et_al
 mkdir /mnt/data/dekker_et_al/dekker_et_al_annotated
