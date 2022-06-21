@@ -6,6 +6,21 @@ Abstract:
 
 The growing interest in named entity recognition (NER) in various domains has led to the creation of different benchmark datasets, often with slightly different annotation guidelines. To better understand the different NER benchmark datasets for the domain of English literature and their impact on the evaluation of NER tools, we analyse two existing annotated datasets and create two additional gold standard datasets. Following on from this, we evaluate the performance of two NER tools, one domain-specific and one general-purpose NER tool, using the four gold standards, and analyse the sources for the differences in the measured performance. Our results show that the performance of the two tools varies significantly depending on the gold standard used for the individual evaluations. 
 
+Please use the following citation while citing this work:
+```latex
+@InProceedings{ivanova-vanerp-kirrane:2022:LREC,
+  author    = {Ivanova, Rositsa  and  van Erp, Marieke  and  Kirrane, Sabrina},
+  title     = {Comparing Annotated Datasets for Named Entity Recognition in English Literature},
+  booktitle      = {Proceedings of the Language Resources and Evaluation Conference},
+  month          = {June},
+  year           = {2022},
+  address        = {Marseille, France},
+  publisher      = {European Language Resources Association},
+  pages     = {3788--3797},
+  url       = {https://aclanthology.org/2022.lrec-1.404}
+}
+```
+
 ---------
 ## How to replicate the experiment
 
