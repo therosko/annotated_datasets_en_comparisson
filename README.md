@@ -1,6 +1,6 @@
 ## Comparing Annotated Datasets for Named Entity Recognition in English Literature
 
-Should you stumble upon an issue or have questions, please contact [rivanova@wu.ac.at](mailto:rivanova@wu.ac.at).
+Should you stumble upon an issue or have questions, please contact [rositsa.ivanova@unisg.ch](rositsa.ivanova@unisg.ch).
 
 Abstract:
 
